@@ -1,0 +1,147 @@
+.hh
+{
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.header{
+  height: 55px;
+  padding-left: 15px;
+  padding-right: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.searchicon{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70px;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+.connection{
+  width: 99%;
+  height: 50px;
+  background-color:#E65C4F ;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btc{
+
+ width: 90px;
+}
+.tabs{
+  bottom: 0px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+  border-top: 0.5px rgba(112, 110, 110, 0.573) solid;
+}
+ion-tab-button{
+  margin: 0;
+}
+
+.slidphoto{
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 9px;
+  margin-bottom: 130px;
+}
+.showtitle{
+
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tit{
+  font-size: 20px;
+ font-weight: bold;
+}
+
+.see{
+  font-size: 15px;
+  font-weight: bold;
+  color: #78A6C8;
+}
+.card{
+  height: 310px;
+  width: 200px;
+  margin: 5px;
+  flex-shrink: 0;
+  flex-basis: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border: #78A6C8 solid 1px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+}
+.cimg{
+
+  width: 100%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card img{
+  width: 90px;
+  object-fit: cover;
+}
+.show_products{
+  height: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  overflow-x: scroll;
+
+}
+
+.priced{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #78a5c874;
+  height: 40px;
+  width: 60%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  color:#326780 ;
+
+}
+.bar{
+  width: 1px;
+  height: 30px;
+  background-color: rgb(0, 0, 0);
+}
+.titlec{
+  font-size: 15px;
+  font-weight: bold;
+}

@@ -1,0 +1,73 @@
+<ion-header >
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Card info</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ng-container *ngFor="let o of products">
+
+
+  <div uk-slideshow="animation: push">
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+        <ul class="uk-slideshow-items">
+          <ng-container *ngFor="let img of o.image; let i= index">
+            <li>
+                <img [src]="img" alt="" >
+            </li>
+          </ng-container>
+           
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hover aa" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hover aa" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+    </div>
+
+    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+</div>
+<ion-searchbar routerLink="/search" id="search"  show-clear-button="focus" color="light" placeholder="Search..."></ion-searchbar>
+<ion-grid>
+  <ion-row class="ion-padding">
+    <ion-col>
+      <ion-label><span class="uk-label uk-label-warning">{{o.type}}</span></ion-label>
+    </ion-col>
+  </ion-row>
+  <ion-row class="ion-padding">
+    <ion-col>
+      <ion-label class="name">{{o.name}}</ion-label>
+    </ion-col>
+  </ion-row>
+  <ion-row class="ion-padding">
+    <ion-col>
+      <ion-label class="price">
+        {{o.price}} MAD
+      </ion-label>
+    </ion-col>
+  </ion-row>
+  <ion-row class="ion-padding">
+    <ion-col>
+      <ion-label class="title">
+        {{o.title}}
+      </ion-label>
+    </ion-col>
+  </ion-row>
+  <ion-row class="ion-padding">
+    <ion-col>
+      <button class="tall" mat-flat-button color="warn">Add to card</button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+</ng-container>
+</ion-content>
+

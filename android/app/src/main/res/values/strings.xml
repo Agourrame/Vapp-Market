@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AGOAPP</string>
+    <string name="title_activity_main">AGOAPP</string>
+    <string name="package_name">com.app.hello</string>
+    <string name="custom_url_scheme">com.app.hello</string>
+    <string name="server_client_id">553537253405-9lgs8c5279rbqppp1qb0lfobm21jssfq.apps.googleusercontent.com</string>
+</resources>

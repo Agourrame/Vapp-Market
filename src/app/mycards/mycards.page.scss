@@ -1,0 +1,36 @@
+.incri{
+  // background-color: aqua;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: 23px;
+  font-weight: bold;
+  color: var(--ion-color-primary);
+}
+.col
+{
+  background-color: #00dd00;
+  border-radius: 10px;
+}
+
+.allpay{
+  width: 100%;
+  height: 50vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+// .pay
+// {
+//   width: 90%;
+//   height: 100px;
+//   background-color: #00dd00;
+//   margin-top: 10px;
+// }
+.taill{
+  width: 100%;
+}

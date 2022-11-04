@@ -1,0 +1,47 @@
+<ion-header >
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>More information</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row class="ion-padding">
+      <ion-col>
+        <ion-item>
+          <ion-label position="stacked">Enter your name</ion-label>
+          <ion-input type="text" placeholder="Your name" ></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-padding">
+      <ion-col >
+        <ion-item>
+          <ion-label position="stacked">Enter your Phone number</ion-label>
+          <ion-input type="text" placeholder="Your name" ></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-padding">
+      <ion-col>
+        <ion-item>
+          <ion-label position="stacked">Enter your Adresse</ion-label>
+          <ion-input type="text" placeholder="Your name" ></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-padding">
+      <ion-col>
+        <button  (click)="presentToast()" mat-flat-button color="warn">Finish</button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+
+
+
+</ion-content>

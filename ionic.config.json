@@ -1,0 +1,7 @@
+{
+  "name": "AGOAPP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

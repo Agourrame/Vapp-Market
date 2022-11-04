@@ -1,0 +1,57 @@
+.alllogin{
+  height: 100vh;
+  background-color: var(--ion-color-primary);
+
+}
+.iconlogo{
+  height: 60%;
+  // background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  width: 100px;
+  border-radius: 20px;
+}
+.loginmethode{
+ height: 40%;
+ background-color:var(--ion-color-primary-contrast);
+ border-radius: 40px 40px 0% 0%;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ flex-direction: column;
+}
+
+.bordr{
+  border-radius: 8px;
+  font-family: 'Signika', sans-serif;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bordr img{
+  width: 40px;
+}
+.welcom{
+  font-family: 'Signika', sans-serif;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.log{
+  font-weight: bold;
+  color: black;
+}
+.cl{
+  background-color: white;
+  font-weight: bold;
+}
+
+.cle{
+  background-color: #e75b4e;
+  font-weight: bold;
+
+}

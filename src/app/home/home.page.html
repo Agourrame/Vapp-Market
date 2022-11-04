@@ -1,0 +1,278 @@
+<!--
+  <ion-header>
+    <ion-toolbar>
+
+      <ion-title>LimeApp</ion-title>
+    </ion-toolbar>
+  </ion-header> -->
+  <div class="header">
+    <div>Vapp</div>
+   <div class="searchicon"><ion-icon routerLink="/search" size="large" name="search-outline"></ion-icon><ion-icon name="share-social-outline"></ion-icon></div>
+  </div>
+
+  <ion-content class="ion-padding">
+    <ion-refresher slot="fixed" [pullFactor]="0.5" [pullMin]="100" [pullMax]="200" (ionRefresh)="handleRefresh($event)">
+      <ion-refresher-content></ion-refresher-content>
+    </ion-refresher>
+
+
+      <div class="connection">
+        <div>Connection</div>
+        <div ><ion-button routerLink="/login" class="btc"  color="light" shape="round">log in</ion-button></div>
+      </div>
+
+      <div class="uk-position-relative uk-visible-toggle uk-light slidphoto" tabindex="-1" uk-slideshow="animation: push">
+
+        <ul class="uk-slideshow-items">
+          <li>
+            <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                <img src="https://scontent.frak1-1.fna.fbcdn.net/v/t39.30808-6/295955457_6117971238219855_5176384534864407266_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGjPZpqtug7iCnhkk97wxLHjgy3c5ufpPaODLdzm5-k9vdMy08C3WTES3IAG8uVv1CNuiq9muWTULWvLQAO1Fsy&_nc_ohc=Ucz6dLV3rmgAX9h0dO_&_nc_ht=scontent.frak1-1.fna&oh=00_AfD1Y0rRQ3aGJ94C9tIfGZohSkHqHyH80MaaM18AsLWmgA&oe=6361B78D" alt="" uk-cover>
+            </div>
+        </li>
+            <li>
+                <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                    <img src="https://scontent.frak1-1.fna.fbcdn.net/v/t39.30808-6/307719537_6276958922321085_8218178638048298552_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFFjkhF9OznzLg62dNkOzpytMgnyjQdwvC0yCfKNB3C8Ci9wH1YlHfIrmFmpdRzWWkZCq5t8AXPyVrI34WZ1t3W&_nc_ohc=GsoYi7yfHLIAX8DVGpX&tn=CBLjuh5ZVa0LAsOU&_nc_ht=scontent.frak1-1.fna&oh=00_AfDbY_Bcb0PZsDcOjjFp84WozAs_i9LmgYdCrvnvy-l-RA&oe=636200DD" alt="" uk-cover>
+                </div>
+            </li>
+
+
+        </ul>
+
+        <!-- <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a> -->
+
+    </div>
+    <div class="showtitle">
+     <div class="tit">Best Promation</div>
+     <div class="see">See all</div>
+    </div>
+
+    <div class="show_products">
+      <div class="card">
+        <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+        <div class="priced">
+          <div class="price">100 dh</div>
+          <div class="bar"></div>
+          <div class="pers">50%</div>
+        </div>
+        <div class="titlec">iphone 14 pro max </div>
+        <ion-button shape="round">
+          Bay
+          <ion-icon slot="end"  name="cart-outline"></ion-icon>
+        </ion-button>
+      </div>
+      <div class="card">
+        <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+        <div class="priced">
+          <div class="price">100 dh</div>
+          <div class="bar"></div>
+          <div class="pers">50%</div>
+        </div>
+        <div class="titlec">iphone 14 pro max </div>
+        <ion-button shape="round">
+          Bay
+          <ion-icon slot="end"  name="cart-outline"></ion-icon>
+        </ion-button>
+      </div>
+      <div class="card">
+        <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+        <div class="priced">
+          <div class="price">100 dh</div>
+          <div class="bar"></div>
+          <div class="pers">50%</div>
+        </div>
+        <div class="titlec">iphone 14 pro max </div>
+        <ion-button shape="round">
+          Bay
+          <ion-icon slot="end"  name="cart-outline"></ion-icon>
+        </ion-button>
+      </div>
+      <div class="card">
+        <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+        <div class="priced">
+          <div class="price">100 dh</div>
+          <div class="bar"></div>
+          <div class="pers">50%</div>
+        </div>
+        <div class="titlec">iphone 14 pro max </div>
+        <ion-button shape="round">
+          Bay
+          <ion-icon slot="end"  name="cart-outline"></ion-icon>
+        </ion-button>
+      </div>
+      <div class="card">
+        <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+        <div class="priced">
+          <div class="price">100 dh</div>
+          <div class="bar"></div>
+          <div class="pers">50%</div>
+        </div>
+        <div class="titlec">iphone 14 pro max </div>
+        <ion-button shape="round">
+          Bay
+          <ion-icon slot="end"  name="cart-outline"></ion-icon>
+        </ion-button>
+      </div>
+      <div class="card">
+        <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+        <div class="priced">
+          <div class="price">100 dh</div>
+          <div class="bar"></div>
+          <div class="pers">50%</div>
+        </div>
+        <div class="titlec">iphone 14 pro max </div>
+        <ion-button shape="round">
+          Bay
+          <ion-icon slot="end"  name="cart-outline"></ion-icon>
+        </ion-button>
+      </div>
+
+    </div>
+
+<div class="connection">
+        <div>Connection</div>
+        <div ><ion-button routerLink="/login" class="btc"  color="light" shape="round">log in</ion-button></div>
+      </div>
+
+      <div class="showtitle">
+        <div class="tit">Random</div>
+        <div class="see">See all</div>
+       </div>
+
+       <div class="show_products">
+         <div class="card">
+          <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+          <div class="priced">
+            <div class="price">100 dh</div>
+            <div class="bar"></div>
+            <div class="pers">50%</div>
+          </div>
+          <div class="titlec">iphone 14 pro max </div>
+          <ion-button shape="round">
+            Bay
+            <ion-icon slot="end"  name="cart-outline"></ion-icon>
+          </ion-button>
+        </div>
+        <div class="card">
+          <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+          <div class="priced">
+            <div class="price">100 dh</div>
+            <div class="bar"></div>
+            <div class="pers">50%</div>
+          </div>
+          <div class="titlec">iphone 14 pro max </div>
+          <ion-button shape="round">
+            Bay
+            <ion-icon slot="end"  name="cart-outline"></ion-icon>
+          </ion-button>
+        </div>
+        <div class="card">
+          <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+          <div class="priced">
+            <div class="price">100 dh</div>
+            <div class="bar"></div>
+            <div class="pers">50%</div>
+          </div>
+          <div class="titlec">iphone 14 pro max </div>
+          <ion-button shape="round">
+            Bay
+            <ion-icon slot="end"  name="cart-outline"></ion-icon>
+          </ion-button>
+        </div>
+        <div class="card">
+          <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+          <div class="priced">
+            <div class="price">100 dh</div>
+            <div class="bar"></div>
+            <div class="pers">50%</div>
+          </div>
+          <div class="titlec">iphone 14 pro max </div>
+          <ion-button shape="round">
+            Bay
+            <ion-icon slot="end"  name="cart-outline"></ion-icon>
+          </ion-button>
+        </div>
+        <div class="card">
+          <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+          <div class="priced">
+            <div class="price">100 dh</div>
+            <div class="bar"></div>
+            <div class="pers">50%</div>
+          </div>
+          <div class="titlec">iphone 14 pro max </div>
+          <ion-button shape="round">
+            Bay
+            <ion-icon slot="end"  name="cart-outline"></ion-icon>
+          </ion-button>
+        </div>
+        <div class="card">
+          <div class="cimg"><img src="https://mobile.free.fr/webpublic/Apple_i_Phone_Pro_Violet_DUO_5b9b09900f.png" alt=""></div>
+          <div class="priced">
+            <div class="price">100 dh</div>
+            <div class="bar"></div>
+            <div class="pers">50%</div>
+          </div>
+          <div class="titlec">iphone 14 pro max </div>
+          <ion-button shape="round">
+            Bay
+            <ion-icon slot="end"  name="cart-outline"></ion-icon>
+          </ion-button>
+        </div>
+
+       </div>
+
+  </ion-content>
+<div class="tabs">
+  <ion-icon name="home-outline"></ion-icon>
+  <div routerLink="/mycards">
+    <ion-icon name="cart-outline"></ion-icon>
+    <ion-badge size="large" color="danger">10</ion-badge>
+  </div>
+  <ion-icon name="person-outline"></ion-icon>
+  <ion-icon name="settings-outline"></ion-icon>
+</div>
+<!-- <ion-tabs slot="end">
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="schedule">
+      <ion-icon name="home-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="speakers">
+      <ion-icon name="share-social-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="map" routerLink="/mycards">
+
+        <ion-icon name="cart-outline"></ion-icon>
+        <ion-badge size="large" color="danger">6</ion-badge>
+
+    </ion-tab-button>
+
+
+    <ion-tab-button tab="map">
+      <ion-icon name="person-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="about" routerLink="/search">
+      <ion-icon name="settings-outline"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
+
+
+
+
+
+  <li>
+                    <img src="https://scontent.frak1-1.fna.fbcdn.net/v/t39.30808-6/307719537_6276958922321085_8218178638048298552_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFFjkhF9OznzLg62dNkOzpytMgnyjQdwvC0yCfKNB3C8Ci9wH1YlHfIrmFmpdRzWWkZCq5t8AXPyVrI34WZ1t3W&_nc_ohc=GsoYi7yfHLIAX8DVGpX&tn=CBLjuh5ZVa0LAsOU&_nc_ht=scontent.frak1-1.fna&oh=00_AfDbY_Bcb0PZsDcOjjFp84WozAs_i9LmgYdCrvnvy-l-RA&oe=636200DD" alt="" >
+                </li>
+                <li>
+                  <img src="https://scontent.frak1-1.fna.fbcdn.net/v/t39.30808-6/295955457_6117971238219855_5176384534864407266_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGjPZpqtug7iCnhkk97wxLHjgy3c5ufpPaODLdzm5-k9vdMy08C3WTES3IAG8uVv1CNuiq9muWTULWvLQAO1Fsy&_nc_ohc=Ucz6dLV3rmgAX9h0dO_&_nc_ht=scontent.frak1-1.fna&oh=00_AfD1Y0rRQ3aGJ94C9tIfGZohSkHqHyH80MaaM18AsLWmgA&oe=6361B78D" alt="" >
+              </li>
+
+
+
+
+
+
+-->
